@@ -5,7 +5,7 @@
     "title": "Fresh Vegetables",
     "desc": "Fresh and healthy vegetables for your daily needs.",
     "buttonText": "Shop Now",
-    "image": "/discount/vegetable.png",
+    "image": "./discount/vegetable.png",
     "bgColor"  : "bg-gray-100"
   },
   {
@@ -14,7 +14,7 @@
     "title": "Fresh Fruits",
     "desc": "Enjoy delicious and fresh fruits every day.",
     "buttonText": "Shop Now",
-    "image": "/discount/fruits.png",
+    "image": "./discount/fruits.png",
     "bgColor"  : "bg-yellow-200"
   }
 ]

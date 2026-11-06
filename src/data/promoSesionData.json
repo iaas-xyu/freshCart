@@ -3,8 +3,8 @@
         "title":"Summer Discount",
         "desc":"Get 50% off - Limited TimeOffer!",
         "buttonText":"Shop Now",
-        "imageCenter":"/discount/bgpromo_summer.png",
-        "imageLeft":"/discount/sideleftpromo1.png",
-        "imageRight":"/discount/siderightPromo1.png"
+        "imageCenter":"./discount/bgpromo_summer.png",
+        "imageLeft":"./discount/sideleftpromo1.png",
+        "imageRight":"./discount/siderightPromo1.png"
     }
 ]

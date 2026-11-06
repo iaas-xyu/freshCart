@@ -1,25 +1,25 @@
 [
     {
         "id" : 1,
-        "photo": "/aboutUs/ourTeams/jenny.jpg",
+        "photo": "./aboutUs/ourTeams/jenny.jpg",
         "name" : "Jenny Alexander",
         "department" : "Founder & CEO"
     },
     {
         "id" : 2,
-        "photo": "/aboutUs/ourTeams/bessie.jpg",
+        "photo": "./aboutUs/ourTeams/bessie.jpg",
         "name" : "Bessie Cooper",
         "department" : "Operations Manager"
     },
     {
         "id" : 3,
-        "photo": "/aboutUs/ourTeams/jane.jpg",
+        "photo": "./aboutUs/ourTeams/jane.jpg",
         "name" : "Jane Cooper",
         "department" : "WareHouse Manager"
     },
     {
         "id" : 4,
-        "photo": "/aboutUs/ourTeams/robert.jpg",
+        "photo": "./aboutUs/ourTeams/robert.jpg",
         "name" : "Robert Fox",
         "department" : "Inventory Specialist"
     }

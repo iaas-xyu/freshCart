@@ -2,43 +2,43 @@
   {
     "id": 1,
     "name": "Bakery",
-    "image": "/categories/bakery.png",
+    "image": "./categories/bakery.png",
     "qty": 32
   },
   {
     "id": 2,
     "name": "Fruits",
-    "image": "/categories/fruits.png",
+    "image": "./categories/fruits.png",
     "qty": 70
   },
   {
     "id": 3,
     "name": "Drinks",
-    "image": "/categories/drinks.png",
+    "image": "./categories/drinks.png",
     "qty": 80
   },
   {
     "id": 4,
     "name": "Milk & Egg",
-    "image": "/categories/milkegg.png",
+    "image": "./categories/milkegg.png",
     "qty": 30
   },
   {
     "id": 5,
     "name": "Dry Fruits",
-    "image": "/categories/dry_fruit.png",
+    "image": "./categories/dry_fruit.png",
     "qty": 36
   },
   {
     "id": 6,
     "name": "Hold House",
-    "image": "/categories/hold_house.png",
+    "image": "./categories/hold_house.png",
     "qty": 77
   },
   {
     "id": 7,
     "name": "Vegetable",
-    "image": "/categories/vegetable.png",
+    "image": "./categories/vegetable.png",
     "qty": 56
   }
 ]
