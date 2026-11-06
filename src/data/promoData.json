@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "discount": "Flat 20% Discount",
+    "title": "Fresh Vegetables",
+    "desc": "Fresh and healthy vegetables for your daily needs.",
+    "buttonText": "Shop Now",
+    "image": "/discount/vegetable.png",
+    "bgColor"  : "bg-gray-100"
+  },
+  {
+    "id": 2,
+    "discount": "25% OFF",
+    "title": "Fresh Fruits",
+    "desc": "Enjoy delicious and fresh fruits every day.",
+    "buttonText": "Shop Now",
+    "image": "/discount/fruits.png",
+    "bgColor"  : "bg-yellow-200"
+  }
+]

@@ -1,0 +1,754 @@
+[
+    {
+        "id":1,
+        "name":"Anggur",
+        "category":[
+            "Buah",
+            "blue",
+            "Anggur"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":146138,
+        "oldPrice":412325,
+        "image":"/product/anggur.png",
+        "rating":3.5,
+        "views":874502,
+        "stock":436,
+        "featured":false,
+        "gramasi":"500g",
+        "totalSold":68411,
+        "discount":"50",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir"
+        ],
+        "pengiriman":[
+            "normal"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Ready Stock"
+    },
+    {
+        "id":2,
+        "name":"Apel",
+        "category":[
+            "Buah",
+            "Merah",
+            "Apel"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":311087,
+        "oldPrice":445382,
+        "image":"/product/apel.png",
+        "rating":4.9,
+        "views":70256,
+        "stock":997,
+        "featured":true,
+        "gramasi":"500g",        
+        "totalSold":35653,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Ready Stock"
+    },
+    {
+        "id":3,
+        "name":"Bawang Merah",
+        "category":[
+            "Bumbu Dapur",
+            "Merah",
+            "Bawang"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":765751,
+        "oldPrice":206346,
+        "image":"/product/bawangMerah.png",
+        "rating":4.9,
+        "views":301910,
+        "stock":581,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":81446,
+        "discount":"50",
+        "deals": false,
+        "service": [
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Ready Stock"
+    },
+    {
+        "id":4,
+        "name":"Bawang Putih",
+        "category":[
+            "Bumbu Dapur",
+            "Putih",
+            "Bawang"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":153575,
+        "oldPrice":544053,
+        "image":"/product/bawangPutih.png",
+        "rating":4.9,
+        "views":737654,
+        "stock":273,
+        "featured":false,
+        "gramasi":"500g",
+        "totalSold":55830,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": true,
+        "lokasi":"Jakarta",
+        "statusStock":"Ready Stock"
+    },
+    {
+        "id":5,
+        "name":"Bayam",
+        "category":[
+            "Sayur",
+            "Hijau",
+            "Bayam"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":66534,
+        "oldPrice":489634,
+        "image":"/product/bayam.png",
+        "rating":4.9,
+        "views":901811,
+        "stock":70,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":10106,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": true,
+        "lokasi":"Jakarta",
+        "statusStock":"Ready Stock"
+    },
+    {
+        "id":6,
+        "name":"Cabai",
+        "category":[
+            "Bumbu Dapur",
+            "Merah",
+            "Cabai"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":474362,
+        "oldPrice":551935,
+        "image":"/product/cabeKeriting.png",
+        "rating":4.9,
+        "views":105874,
+        "stock":231,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":18715,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":7,
+        "name":"kangkung",
+        "category":[
+            "Sayur",
+            "Hijau",
+            "Kangkung"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":241510,
+        "oldPrice":716693,
+        "image":"/product/kangkung.png",
+        "rating":4.9,
+        "views":659445,
+        "stock":622,
+        "featured":false,
+        "gramasi":"500g",
+        "totalSold":20928,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":8,
+        "name":"Kembang Kol",
+        "category":[
+            "Sayur",
+            "Putih",
+            "Kembang Kol"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":178296,
+        "oldPrice":266759,
+        "image":"/product/kembangkol.png",
+        "rating":4.9,
+        "views":927492,
+        "stock":641,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":33673,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":9,
+        "name":"Lechy",
+        "category":[
+            "Buah",
+            "Merah",
+            "lechy"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":945706,
+        "oldPrice":553360,
+        "image":"/product/lecy.png",
+        "rating":3.9,
+        "views":812489,
+        "stock":181,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":80458,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Sold Out"
+    },
+    {
+        "id":10,
+        "name":"Lemon",
+        "category":[
+            "Buah",
+            "Kuning",
+            "Lemon"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":747364,
+        "oldPrice":74545,
+        "image":"/product/lemon.png",
+        "rating":4.9,
+        "views":841044,
+        "stock":690,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":87739,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Bogor",
+        "statusStock":"Sold Out"
+    },
+    {
+        "id":11,
+        "name":"Mangga",
+        "category":[
+            "Buah",
+            "Hijau",
+            "Mangga"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":673635,
+        "oldPrice":249535,
+        "image":"/product/mangga.png",
+        "rating":4.9,
+        "views":772326,
+        "stock":673,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":7195,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Sold Out"
+    },
+    {
+        "id":12,
+        "name":"Pepaya",
+        "category":[
+            "Buah",
+            "Orange",
+            "Pepaya"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":739407,
+        "oldPrice":100146,
+        "image":"/product/pepaya.png",
+        "rating":4.9,
+        "views":146616,
+        "stock":817,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":33715,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Sold Out"
+    },
+    {
+        "id":13,
+        "name":"Pisang",
+        "category":[
+            "Buah",
+            "Kuning",
+            "Pisang"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":744623,
+        "oldPrice":510142,
+        "image":"/product/pisang.png",
+        "rating":4.9,
+        "views":831226,
+        "stock":220,
+        "featured":false,
+        "gramasi":"500g",
+        "totalSold":47548,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":14,
+        "name":"Seledri",
+        "category":[
+            "Sayur",
+            "Hijau",
+            "Seledri"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/seledri.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": true,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":15,
+        "name":"Semangka",
+        "category":[
+            "Buah",
+            "Hijau",
+            "Semangka"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/semangka.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant"
+        ],
+        "COD": true,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":16,
+        "name":"Strawberry",
+        "category":[
+            "Buah",
+            "Merah",
+            "Strawberry"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/strauberry.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+        
+    {
+        "id":17,
+        "name":"Mentimun",
+        "category":[
+            "Sayur",
+            "Hijau",
+            "Mentimun"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/timun.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": false,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":18,
+        "name":"Hand & Body Wash",
+        "category":[
+            "Body Care",
+            "White",
+            "Hand & body"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/sabun.png",
+        "rating":4.2,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"35",
+        "deals": true,
+        "service": [
+            "Gratis Ongkir",
+            "COD"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":19,
+        "name":"Shampoo",
+        "category":[
+            "Body Care",
+            "White",
+            "Shampoo"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/shampoo.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": true,
+        "service": [
+            "Gratis Ongkir"
+        ],
+        "pengiriman":[
+            "normal"
+        ],
+        "COD": false,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":20,
+        "name":"Detergent",
+        "category":[
+            "Home Care",
+            "Merah Muda",
+            "Detergen"
+        ],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/detergen.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": true,
+        "service": [
+            "Gratis Ongkir"
+        ],
+        "pengiriman":[
+            "normal",
+            "instant",
+            "sameday"
+        ],
+        "COD": true,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    },
+    {
+        "id":21,
+        "name":"Hair Mask",
+        "category":["body care"],
+        "desc":[
+            "A fast brown fox jumps over the lazy dog while exploring a quiet forest filled with colorful flowers and singing birds.",
+            "Fugiat fugiat pariatur officia aliqua dolore laboris aute labore laboris. Adipiscing ut officia dolore mollit officia tempor dolor dolore. Ut sunt exercitation aliqua dolor in velit et anim velit. Minim est ex sunt aliqua commodo aute aliquip cillum sunt labore. Occaecat laborum mollit esse velit officia ad ex irure fugiat irure excepteur.",
+            "Sed veniam laboris magna in aute culpa ut laborum proident. Et irure aliquip qui do adipiscing labore minim. Aute est ad ut velit in id aliquip proident. Laborum ut reprehenderit nulla fugiat duis eiusmod nulla laboris voluptate cupidatat. Velit elit quis laboris dolore cillum anim sunt."
+        ],
+        "price":502664,
+        "oldPrice":5689,
+        "image":"/product/hairMask.png",
+        "rating":4.9,
+        "views":419428,
+        "stock":33,
+        "featured":true,
+
+"gramasi":"500g",        "totalSold":25297,
+        "discount":"20",
+        "deals": true,
+        "service": [
+            "Gratis Ongkir"
+        ],
+        "pengiriman":[
+            "normal",
+            "sameday"
+        ],
+        "COD": true,
+        "lokasi":"Jakarta",
+        "statusStock":"Pre Order"
+    }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "idUser": 1,
+    "name": "Sarah Johnson",
+    "jobTitle": "Food Blogger",
+    "comment": "The fruits are always fresh and delivered on time. The quality is amazing!",
+    "rating": 5.0,
+    "avatar": "/user/budi.png",
+    "date": "2026-07-15",
+    "verified": true
+  },
+  {
+    "idUser": 2,
+    "name": "Michael Anderson",
+    "jobTitle": "Restaurant Owner",
+    "comment": "Freshcart has become my go-to place for fresh vegetables. Great quality and excellent service.",
+    "rating": 4.8,
+    "avatar": "/user/jack.png",
+    "date": "2026-07-12",
+    "verified": true
+  },
+  {
+    "idUser": 3,
+    "name": "Emily Carter",
+    "jobTitle": "Nutritionist",
+    "comment": "I love how fresh everything is. The ordering process is simple and the delivery is fast.",
+    "rating": 5.0,
+    "avatar": "/user/rosa.png",
+    "date": "2026-07-10",
+    "verified": true
+  },
+  {
+    "idUser": 4,
+    "name": "DavidUser Wilson",
+    "jobTitle": "Fitness Coach",
+    "comment": "The quality of the products is excellent. I regularly order fruits and healthy ingredients from Freshcart.",
+    "rating": 4.7,
+    "avatar": "/user/cynthia.png",
+    "date": "2026-07-08",
+    "verified": true
+  }
+]

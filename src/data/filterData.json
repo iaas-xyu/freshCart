@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Diskon",
+    "type": "discount",
+    "options":[
+      {
+        "label":"Discount 50%",
+        "value":50,
+        "showIn": ["slider"]
+      }
+    ]
+  },
+  {
+    "title": "Service",
+    "type":"service",
+    "options": [
+      {
+        "label": "Gratis Ongkir",
+        "value": "Gratis Ongkir",
+        "type": "boolean",
+        "showIn": ["modal", "slider"]
+      },
+      {
+        "label": "COD",
+        "value": "COD",
+        "type": "boolean",
+        "showIn": ["modal", "slider"]
+      }
+    ]
+  },
+  {
+    "title": "Pengiriman",
+    "type":"delivery",
+    "options": [
+      {
+        "label": "Normal",
+        "value": "normal",
+        "showIn": ["modal"]
+      },
+      {
+        "label": "Sameday",
+        "value": "sameday",
+        "showIn": ["modal"]
+      },
+      {
+        "label": "Instant",
+        "value": "instant",
+        "showIn": ["modal", "slider"]
+      }
+    ]
+  },
+  {
+    "title": "Lokasi",
+    "type":"location",
+    "options":[
+        {
+            "label": "Jakarta",
+            "value": "Jakarta",
+            "showIn": ["modal"]
+        },
+        {
+            "label": "Bogor",
+            "value": "Bogor",
+            "showIn": ["modal"]
+        },
+        {
+            "label": "Bandung",
+            "value": "Bandung",
+            "showIn": ["modal"]
+        },
+        {
+            "label": "Medan",
+            "value": "Medan",
+            "showIn": ["modal"]
+        },
+        {
+            "label": "Surabaya",
+            "value": "Surabaya",
+            "showIn": ["modal"]
+        }
+    ]
+  },
+  {
+    "title": "Status Stock",
+    "type":"statusStock",
+    "options":[
+        {
+            "label":"Ready Stock",
+            "value":"Ready Stock",
+            "showIn": ["modal", "slider"]
+        },
+        {
+            "label":"Pre Order",
+            "value":"Pre Order",
+            "showIn": ["modal"]
+        },
+        {
+            "label":"Sold Out",
+            "value":"Sold Out",
+            "showIn": ["modal"]
+        }
+    ]
+  }
+]

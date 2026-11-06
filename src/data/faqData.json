@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Are your fruits and vegetables always fresh?",
+    "answer": "Yes. We source our products directly from trusted local farmers and suppliers. Every item is carefully selected and inspected to ensure maximum freshness before it reaches your doorstep."
+  },
+  {
+    "id": 2,
+    "question": "How long does delivery usually take?",
+    "answer": "Delivery typically takes between 1–3 hours for local orders. Delivery times may vary depending on your location and order volume."
+  },
+  {
+    "id": 3,
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Credit Cards, Debit Cards, Bank Transfers, PayPal, and popular e-wallets such as GoPay, OVO, DANA, and ShopeePay."
+  },
+  {
+    "id": 4,
+    "question": "Can I return or exchange my order?",
+    "answer": "Yes. If you receive damaged, incorrect, or poor-quality products, please contact our support team within 24 hours after delivery for a replacement or refund."
+  },
+  {
+    "id": 5,
+    "question": "Do you offer free shipping?",
+    "answer": "Yes. We offer free shipping on orders above $50. Shipping fees for smaller orders are calculated based on your delivery location."
+  },
+  {
+    "id": 6,
+    "question": "Where do your products come from?",
+    "answer": "Our fresh produce is sourced from carefully selected local farms and trusted suppliers to ensure premium quality, freshness, and sustainable farming practices."
+  }
+]

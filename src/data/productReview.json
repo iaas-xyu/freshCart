@@ -1,0 +1,834 @@
+[
+  {
+    "id": "R001",
+    "productId": 1,
+    "idUser": 1,
+    "rating": 5.0,
+    "comment": "Kualitas produk sangat bagus, sesuai dengan deskripsi.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-01",
+    "images": [
+      "https://images.unsplash.com/photo-1596450514735-111a2fe02935?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1537640538966-79f369143f8f?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1603569283847-aa295f0d016a?auto=format&fit=crop&w=400&q=80"
+    ]
+  },
+  {
+    "id": "R002",
+    "productId": 1,
+    "idUser": 2,
+    "rating": 4.8,
+    "comment": "Pengiriman cepat dan packing sangat aman.",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-05",
+    "images":[
+      "https://images.pexels.com/photos/6489360/pexels-photo-6489360.jpeg",
+      "https://images.pexels.com/photos/8478133/pexels-photo-8478133.jpeg"
+    ]
+  },
+  {
+    "id": "R003",
+    "productId": 1,
+    "idUser": 3,
+    "rating": 1.6,
+    "comment": "Barang original, harga terjangkau. Recommended!",
+    "pembelian": "1 Pack",
+    "date": "2026-07-10",
+    "images" : [
+      "https://images.pexels.com/photos/8796710/pexels-photo-8796710.jpeg"
+    ]
+  },
+  {
+    "id": "R004",
+    "productId": 1,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Barang original, harga terjangkau. Recommended!",
+    "pembelian": "1 Pack",
+    "date": "2026-07-20",
+    "images" : [
+      "https://images.pexels.com/photos/8789666/pexels-photo-8789666.jpeg",
+      "https://images.pexels.com/photos/8964275/pexels-photo-8964275.jpeg",
+      "https://images.pexels.com/photos/9216389/pexels-photo-9216389.jpeg",
+      "https://images.pexels.com/photos/9511157/pexels-photo-9511157.jpeg"
+    ]
+  },
+
+  {
+    "id": "R004",
+    "productId": 2,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Sangat puas dengan barang ini, bakal order lagi.",
+    "pembelian": "1kg",
+    "date": "2026-07-02",
+    "images" : [
+      "https://images.pexels.com/photos/39309054/pexels-photo-39309054.jpeg",
+      "https://images.pexels.com/photos/39308937/pexels-photo-39308937.jpeg",
+      "https://images.pexels.com/photos/14833258/pexels-photo-14833258.jpeg",
+      "https://images.pexels.com/photos/29632178/pexels-photo-29632178.jpeg"
+    ]
+  },
+  {
+    "id": "R005",
+    "productId": 2,
+    "idUser": 1,
+    "rating": 4.7,
+    "comment": "Fungsi berjalan baik, kualitas material jempolan.",
+    "pembelian": "500g",
+    "date": "2026-07-06",
+    "images" : [
+      "https://images.pexels.com/photos/30846817/pexels-photo-30846817.jpeg",
+      "https://images.pexels.com/photos/34066399/pexels-photo-34066399.jpeg"
+    ]
+  },
+  {
+    "id": "R006",
+    "productId": 2,
+    "idUser": 2,
+    "rating": 4.2,
+    "comment": "Respon seller cepat dan barang selamat sampai tujuan.",
+    "pembelian": "2kg",
+    "date": "2026-07-11",
+    "images" : [
+      "https://images.pexels.com/photos/31427425/pexels-photo-31427425.jpeg"
+    ]
+  },
+
+  {
+    "id": "R007",
+    "productId": 3,
+    "idUser": 3,
+    "rating": 5.0,
+    "comment": "Top banget, tidak ada cacat sedikitpun.",
+    "pembelian": "Ukuran M",
+    "date": "2026-07-03",
+    "images" : [
+      "https://images.pexels.com/photos/38088072/pexels-photo-38088072.jpeg",
+      "https://images.pexels.com/photos/12181050/pexels-photo-12181050.jpeg"
+    ]
+  },
+  {
+    "id": "R008",
+    "productId": 3,
+    "idUser": 4,
+    "rating": 4.9,
+    "comment": "Sesuai ekspektasi, barangnya bagus dan berguna.",
+    "pembelian": "Ukuran L",
+    "date": "2026-07-07",
+    "images" : [
+     "https://images.pexels.com/photos/4307386/pexels-photo-4307386.jpeg" 
+    ]
+  },
+  {
+    "id": "R009",
+    "productId": 3,
+    "idUser": 1,
+    "rating": 4.6,
+    "comment": "Sudah langganan di toko ini, tidak pernah kecewa.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-12",
+    "images" : [
+      "https://images.pexels.com/photos/244395/pexels-photo-244395.jpeg",
+      "https://images.pexels.com/photos/15754938/pexels-photo-15754938.jpeg"
+    ]
+  },
+
+  {
+    "id": "R010",
+    "productId": 4,
+    "idUser": 2,
+    "rating": 4.8,
+    "comment": "Pengemasan rapi pakai bubble wrap tebal.",
+    "pembelian": "Varian A",
+    "date": "2026-07-04",
+    "images" : [
+      "https://images.pexels.com/photos/12955789/pexels-photo-12955789.jpeg",
+      "https://images.pexels.com/photos/4022586/pexels-photo-4022586.jpeg",
+      "https://images.pexels.com/photos/14678931/pexels-photo-14678931.jpeg"
+    ]
+  },
+  {
+    "id": "R011",
+    "productId": 4,
+    "idUser": 3,
+    "rating": 5.0,
+    "comment": "Produk berfungsi dengan sangat baik, mantap!",
+    "pembelian": "Varian B",
+    "date": "2026-07-08",
+    "images" : [
+      "https://images.pexels.com/photos/6201574/pexels-photo-6201574.jpeg",
+      "https://images.pexels.com/photos/4197482/pexels-photo-4197482.jpeg"
+    ]
+  },
+  {
+    "id": "R012",
+    "productId": 4,
+    "idUser": 4,
+    "rating": 4.3,
+    "comment": "Barang datang tepat waktu, kualitas oke.",
+    "pembelian": "1 Box",
+    "date": "2026-07-13",
+    "images": [
+      "https://images.pexels.com/photos/29640700/pexels-photo-29640700.jpeg",
+      "https://images.pexels.com/photos/39103384/pexels-photo-39103384.jpeg"
+    ]
+  },
+
+  {
+    "id": "R013",
+    "productId": 5,
+    "idUser": 1,
+    "rating": 5.0,
+    "comment": "Kualitas mantap, sesuai dengan foto produk.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-05",
+    "images" :[
+      "https://images.pexels.com/photos/19904789/pexels-photo-19904789.jpeg",
+      "https://images.pexels.com/photos/7511805/pexels-photo-7511805.jpeg",
+      "https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg"
+    ]
+  },
+  {
+    "id": "R014",
+    "productId": 5,
+    "idUser": 2,
+    "rating": 4.5,
+    "comment": "Harga bersaing, kualitas barang melebihi ekspektasi.",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-09",
+    "images" : [
+      "https://images.pexels.com/photos/38571502/pexels-photo-38571502.jpeg",
+      "https://images.pexels.com/photos/7213112/pexels-photo-7213112.jpeg"
+    ]
+  },
+  {
+    "id": "R015",
+    "productId": 5,
+    "idUser": 3,
+    "rating": 4.8,
+    "comment": "Seller ramah dan membantu saat tanya stok.",
+    "pembelian": "1 Pack",
+    "date": "2026-07-14",
+    "images":[
+      "https://images.pexels.com/photos/25856512/pexels-photo-25856512.jpeg",
+      "https://images.pexels.com/photos/15150753/pexels-photo-15150753.jpeg"
+    ]
+  },
+
+  {
+    "id": "R016",
+    "productId": 6,
+    "idUser": 4,
+    "rating": 4.7,
+    "comment": "Bahan kokoh dan finishing-nya rapi.",
+    "pembelian": "Warna Hitam",
+    "date": "2026-07-06",
+    "images" : [
+      "https://images.pexels.com/photos/31960874/pexels-photo-31960874.jpeg"
+    ]
+  },
+  {
+    "id": "R017",
+    "productId": 6,
+    "idUser": 1,
+    "rating": 5.0,
+    "comment": "Sangat membantu untuk kebutuhan sehari-hari.",
+    "pembelian": "Warna Putih",
+    "date": "2026-07-10",
+    "images" :[
+      "https://images.pexels.com/photos/34663394/pexels-photo-34663394.jpeg",
+      "https://images.pexels.com/photos/39611767/pexels-photo-39611767.jpeg",
+      "https://images.pexels.com/photos/20446273/pexels-photo-20446273.jpeg"
+    ]
+  },
+  {
+    "id": "R018",
+    "productId": 6,
+    "idUser": 2,
+    "rating": 4.4,
+    "comment": "Produk original dan tersegel rapi saat datang.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-15",
+    "images" : [
+      "https://images.pexels.com/photos/35660513/pexels-photo-35660513.jpeg",
+      "https://images.pexels.com/photos/12433709/pexels-photo-12433709.jpeg"
+    ]
+  },
+
+  {
+    "id": "R019",
+    "productId": 7,
+    "idUser": 3,
+    "rating": 5.0,
+    "comment": "Pengiriman super cepat, kemarin pesan hari ini sampai.",
+    "pembelian": "500ml",
+    "date": "2026-07-07",
+    "images" : [
+      "https://images.pexels.com/photos/13768938/pexels-photo-13768938.jpeg",
+      "https://images.pexels.com/photos/67449/pexels-photo-67449.jpeg"
+    ]
+  },
+  {
+    "id": "R020",
+    "productId": 7,
+    "idUser": 4,
+    "rating": 4.6,
+    "comment": "Barang bagus, pemakaian sangat gampang.",
+    "pembelian": "1 Litre",
+    "date": "2026-07-11",
+    "images" : [
+      "https://images.pexels.com/photos/5182547/pexels-photo-5182547.jpeg"
+    ]
+  },
+  {
+    "id": "R021",
+    "productId": 7,
+    "idUser": 1,
+    "rating": 4.8,
+    "comment": "Kualitas bintang lima, harga kaki lima.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-16",
+    "images" : [
+      "https://images.pexels.com/photos/38948282/pexels-photo-38948282.jpeg"
+    ]
+  },
+
+  {
+    "id": "R022",
+    "productId": 8,
+    "idUser": 2,
+    "rating": 4.9,
+    "comment": "Sangat puas, packing tebal dan aman dari benturan.",
+    "pembelian": "Pack Hemat",
+    "date": "2026-07-08",
+    "images" : [
+      "https://images.pexels.com/photos/35556710/pexels-photo-35556710.jpeg",
+      "https://images.pexels.com/photos/33211281/pexels-photo-33211281.jpeg"
+
+    ]
+  },
+  {
+    "id": "R023",
+    "productId": 8,
+    "idUser": 3,
+    "rating": 5.0,
+    "comment": "Kualitas produk sangat memuaskan, terimakasih!",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-12",
+    "images" : [
+      "https://images.pexels.com/photos/33027967/pexels-photo-33027967.jpeg"
+    ]
+  },
+  {
+    "id": "R024",
+    "productId": 8,
+    "idUser": 4,
+    "rating": 4.2,
+    "comment": "Produk bekerja sesuai fungsinya tanpa kendala.",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-17",
+    "images" : [
+      "https://images.pexels.com/photos/34637173/pexels-photo-34637173.jpeg"
+    ]
+  },
+
+  {
+    "id": "R025",
+    "productId": 9,
+    "idUser": 1,
+    "rating": 4.8,
+    "comment": "Material halus dan nyaman digunakan.",
+    "pembelian": "Ukuran S",
+    "date": "2026-07-09",
+    "images" : [
+      "https://images.pexels.com/photos/32530081/pexels-photo-32530081.jpeg"
+    ]
+  },
+  {
+    "id": "R026",
+    "productId": 9,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Warnanya persis seperti di gambar, cantik banget.",
+    "pembelian": "Ukuran M",
+    "date": "2026-07-13",
+    "images" : [
+      "https://images.pexels.com/photos/32530102/pexels-photo-32530102.jpeg"
+    ]
+  },
+  {
+    "id": "R027",
+    "productId": 9,
+    "idUser": 3,
+    "rating": 4.5,
+    "comment": "Barang oke, sesuai dengan harganya.",
+    "pembelian": "Ukuran L",
+    "date": "2026-07-18",
+    "images" : [
+      "https://images.pexels.com/photos/32834064/pexels-photo-32834064.jpeg"
+    ]
+  },
+
+  {
+    "id": "R028",
+    "productId": 10,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Produk mantap, respons kurir dan seller cepat.",
+    "pembelian": "1 Set",
+    "date": "2026-07-10",
+    "images" : [
+      "https://images.pexels.com/photos/11295023/pexels-photo-11295023.jpeg"
+    ]
+  },
+  {
+    "id": "R029",
+    "productId": 10,
+    "idUser": 1,
+    "rating": 4.7,
+    "comment": "Barang mendarat dengan aman tanpa ada cacat.",
+    "pembelian": "2 Set",
+    "date": "2026-07-14",
+    "images": [
+
+    ]
+  },
+  {
+    "id": "R030",
+    "productId": 10,
+    "idUser": 2,
+    "rating": 4.9,
+    "comment": "Sudah dicoba dan hasilnya memuaskan.",
+    "pembelian": "1 Set",
+    "date": "2026-07-19",
+    "images": [
+      "https://images.pexels.com/photos/7195128/pexels-photo-7195128.jpeg",
+      "https://images.pexels.com/photos/36371142/pexels-photo-36371142.jpeg"
+    ]
+  },
+
+  {
+    "id": "R031",
+    "productId": 11,
+    "idUser": 3,
+    "rating": 4.6,
+    "comment": "Kualitas terjamin, recommended seller!",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-11",
+    "images":[]
+  },
+  {
+    "id": "R032",
+    "productId": 11,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Bagus banget, bakal jadi langganan.",
+    "pembelian": "3 Pcs",
+    "date": "2026-07-15",
+    "images": [
+      "https://images.pexels.com/photos/2294471/pexels-photo-2294471.jpeg",
+      "https://images.pexels.com/photos/8446853/pexels-photo-8446853.jpeg"
+    ]
+  },
+  {
+    "id": "R033",
+    "productId": 11,
+    "idUser": 1,
+    "rating": 4.3,
+    "comment": "Pesanannya lengkap tidak ada yang kurang.",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-20",
+    "images":[
+      "https://images.pexels.com/photos/37744364/pexels-photo-37744364.jpeg",
+      "https://images.pexels.com/photos/17482442/pexels-photo-17482442.jpeg"
+    ]
+  },
+
+  {
+    "id": "R034",
+    "productId": 12,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Sangat rekomen untuk yang cari produk berkualitas.",
+    "pembelian": "Varian Red",
+    "date": "2026-07-12",
+    "images":[
+      "https://images.pexels.com/photos/10869540/pexels-photo-10869540.jpeg",
+      "https://images.pexels.com/photos/4113799/pexels-photo-4113799.jpeg"
+    ]
+  },
+  {
+    "id": "R035",
+    "productId": 12,
+    "idUser": 3,
+    "rating": 4.8,
+    "comment": "Desainnya simpel tapi kelihatan premium.",
+    "pembelian": "Varian Blue",
+    "date": "2026-07-16",
+    "images":[
+      "https://images.pexels.com/photos/14923534/pexels-photo-14923534.jpeg"
+    ]
+  },
+  {
+    "id": "R036",
+    "productId": 12,
+    "idUser": 4,
+    "rating": 4.5,
+    "comment": "Proses transaksi cepat dan barang aman.",
+    "pembelian": "Varian Black",
+    "date": "2026-07-21",
+    "images": [
+
+    ]
+  },
+
+  {
+    "id": "R037",
+    "productId": 13,
+    "idUser": 1,
+    "rating": 4.9,
+    "comment": "Sangat praktis dan mudah dipakai.",
+    "pembelian": "1 Unit",
+    "date": "2026-07-13",
+    "images":[
+      "https://images.pexels.com/photos/7194965/pexels-photo-7194965.jpeg",
+      "https://images.pexels.com/photos/30893278/pexels-photo-30893278.jpeg"
+    ]
+  },
+  {
+    "id": "R038",
+    "productId": 13,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Kondisi barang baru dan mulus tanpa baret.",
+    "pembelian": "1 Unit",
+    "date": "2026-07-17",
+    "images": [
+      "https://images.pexels.com/photos/30638212/pexels-photo-30638212.jpeg"
+    ]
+  },
+  {
+    "id": "R039",
+    "productId": 13,
+    "idUser": 3,
+    "rating": 4.4,
+    "comment": "Barang berfungsi baik, pengiriman oke.",
+    "pembelian": "2 Unit",
+    "date": "2026-07-22",
+    "images":[]
+  },
+
+  {
+    "id": "R040",
+    "productId": 14,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Aroma/rasa sangat enak dan cocok.",
+    "pembelian": "250g",
+    "date": "2026-07-14",
+    "images" :[
+      "https://images.pexels.com/photos/10978794/pexels-photo-10978794.jpeg",
+      "https://images.pexels.com/photos/8805229/pexels-photo-8805229.jpeg"
+    ]
+  },
+  {
+    "id": "R041",
+    "productId": 14,
+    "idUser": 1,
+    "rating": 4.7,
+    "comment": "Segar dan kualitas produk terjaga baik.",
+    "pembelian": "500g",
+    "date": "2026-07-18",
+    "images" : [
+      "https://images.pexels.com/photos/8805276/pexels-photo-8805276.jpeg",
+      "https://images.pexels.com/photos/38961301/pexels-photo-38961301.jpeg",
+      "https://images.pexels.com/photos/13354858/pexels-photo-13354858.jpeg"
+    ]
+  },
+  {
+    "id": "R042",
+    "productId": 14,
+    "idUser": 2,
+    "rating": 4.8,
+    "comment": "Expired date masih lama, mantap.",
+    "pembelian": "1kg",
+    "date": "2026-07-23",
+    "images": [
+      "https://images.pexels.com/photos/4198112/pexels-photo-4198112.jpeg"
+    ]
+  },
+
+  {
+    "id": "R043",
+    "productId": 15,
+    "idUser": 3,
+    "rating": 4.5,
+    "comment": "Packing kardus tebal, barang tidak penyok.",
+    "pembelian": "1 Box",
+    "date": "2026-07-15",
+    "images": [
+      "https://images.pexels.com/photos/5460885/pexels-photo-5460885.jpeg",
+      "https://images.pexels.com/photos/27035208/pexels-photo-27035208.jpeg"
+    ]
+  },
+  {
+    "id": "R044",
+    "productId": 15,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Mantap betul, barang berfungsi normal.",
+    "pembelian": "2 Box",
+    "date": "2026-07-19",
+    "images":[
+      "https://images.pexels.com/photos/38900893/pexels-photo-38900893.jpeg",
+      "https://images.pexels.com/photos/33485007/pexels-photo-33485007.jpeg"
+    ]
+  },
+  {
+    "id": "R045",
+    "productId": 15,
+    "idUser": 1,
+    "rating": 4.2,
+    "comment": "Cukup bagus dan sesuai harganya.",
+    "pembelian": "1 Box",
+    "date": "2026-07-24",
+    "images": [
+      "https://images.pexels.com/photos/15975999/pexels-photo-15975999.jpeg"
+    ]
+  },
+
+  {
+    "id": "R046",
+    "productId": 16,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Bintang 5 untuk kualitas dan layanan toko.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-16",
+    "images": [
+      "https://images.pexels.com/photos/12992363/pexels-photo-12992363.jpeg",
+      "https://images.pexels.com/photos/37223484/pexels-photo-37223484.jpeg",
+      "https://images.pexels.com/photos/30517931/pexels-photo-30517931.jpeg",
+      "https://images.pexels.com/photos/8252825/pexels-photo-8252825.jpeg"
+    ]
+  },
+  {
+    "id": "R047",
+    "productId": 16,
+    "idUser": 3,
+    "rating": 4.9,
+    "comment": "Pengiriman kilat, barang sesuai deskripsi.",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-20",
+    "images": [
+      "https://images.pexels.com/photos/37011458/pexels-photo-37011458.jpeg",
+      "https://images.pexels.com/photos/38845215/pexels-photo-38845215.jpeg"
+    ]
+  },
+  {
+    "id": "R048",
+    "productId": 16,
+    "idUser": 4,
+    "rating": 4.6,
+    "comment": "Bahannya kokoh dan tidak murahan.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-25",
+    "images":[
+      "https://images.pexels.com/photos/4739934/pexels-photo-4739934.jpeg"
+    ]
+  },
+
+  {
+    "id": "R049",
+    "productId": 17,
+    "idUser": 1,
+    "rating": 4.8,
+    "comment": "Sangat berguna, sesuai dengan kebutuhan.",
+    "pembelian": "Tipe A",
+    "date": "2026-07-17",
+    "images":[
+      "https://images.pexels.com/photos/39154015/pexels-photo-39154015.jpeg",
+      "https://images.pexels.com/photos/7223321/pexels-photo-7223321.jpeg"
+    ]
+  },
+  {
+    "id": "R050",
+    "productId": 17,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Produk sampai dengan selamat dan cepat.",
+    "pembelian": "Tipe B",
+    "date": "2026-07-21",
+    "images":[
+
+    ]
+  },
+  {
+    "id": "R051",
+    "productId": 17,
+    "idUser": 3,
+    "rating": 4.4,
+    "comment": "Kualitas bagus untuk pemakaian sehari-hari.",
+    "pembelian": "Tipe A",
+    "date": "2026-07-26",
+    "images": [
+      "https://images.pexels.com/photos/39490165/pexels-photo-39490165.jpeg",
+      "https://images.pexels.com/photos/17196492/pexels-photo-17196492.jpeg",
+      "https://images.pexels.com/photos/8679633/pexels-photo-8679633.jpeg"
+    ]
+  },
+
+  {
+    "id": "R052",
+    "productId": 18,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Layanan luar biasa, produk sangat memuaskan.",
+    "pembelian": "1 Pack",
+    "date": "2026-07-18",
+    "images":[
+      "https://images.pexels.com/photos/9475416/pexels-photo-9475416.jpeg",
+      "https://images.pexels.com/photos/19147430/pexels-photo-19147430.jpeg"
+    ]
+  },
+  {
+    "id": "R053",
+    "productId": 18,
+    "idUser": 1,
+    "rating": 4.7,
+    "comment": "Kemasan rapi dan aman sampai tujuan.",
+    "pembelian": "2 Pack",
+    "date": "2026-07-22",
+    "images":[
+      "https://images.pexels.com/photos/14354729/pexels-photo-14354729.jpeg"
+    ]
+  },
+  {
+    "id": "R054",
+    "productId": 18,
+    "idUser": 2,
+    "rating": 4.9,
+    "comment": "Sesuai pesanan, tidak ada yang salah kirim.",
+    "pembelian": "1 Pack",
+    "date": "2026-07-27",
+    "images":[
+      "https://images.pexels.com/photos/10928901/pexels-photo-10928901.jpeg"
+    ]
+  },
+
+  {
+    "id": "R055",
+    "productId": 19,
+    "idUser": 3,
+    "rating": 4.6,
+    "comment": "Fitur dan kegunaannya bekerja sangat baik.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-19",
+    "images": [
+      "https://images.pexels.com/photos/3993461/pexels-photo-3993461.jpeg",
+      "https://images.pexels.com/photos/4810369/pexels-photo-4810369.jpeg"
+    ]
+  },
+  {
+    "id": "R056",
+    "productId": 19,
+    "idUser": 4,
+    "rating": 5.0,
+    "comment": "Top markotop, seller fast respon!",
+    "pembelian": "2 Pcs",
+    "date": "2026-07-23",
+    "images":[
+      "https://images.pexels.com/photos/7440062/pexels-photo-7440062.jpeg"
+    ]
+  },
+  {
+    "id": "R057",
+    "productId": 19,
+    "idUser": 1,
+    "rating": 4.5,
+    "comment": "Kualitas standar tapi berfungsi dengan baik.",
+    "pembelian": "1 Pcs",
+    "date": "2026-07-28",
+    "images":[
+
+    ]
+  },
+
+  {
+    "id": "R058",
+    "productId": 20,
+    "idUser": 2,
+    "rating": 5.0,
+    "comment": "Sangat rekomended untuk dibeli!",
+    "pembelian": "Paket A",
+    "date": "2026-07-20",
+    "images":[
+      "https://images.pexels.com/photos/10566513/pexels-photo-10566513.jpeg",
+      "https://images.pexels.com/photos/5591837/pexels-photo-5591837.jpeg"
+    ]
+  },
+  {
+    "id": "R059",
+    "productId": 20,
+    "idUser": 3,
+    "rating": 4.8,
+    "comment": "Barang sesuai pesanan dan bergaransi resmi.",
+    "pembelian": "Paket B",
+    "date": "2026-07-24",
+    "images":[
+      "https://images.pexels.com/photos/5591578/pexels-photo-5591578.jpeg",
+      "https://images.pexels.com/photos/10558186/pexels-photo-10558186.jpeg"
+    ]
+  },
+  {
+    "id": "R060",
+    "productId": 20,
+    "idUser": 4,
+    "rating": 4.7,
+    "comment": "Pengiriman lancar dan paking aman.",
+    "pembelian": "Paket A",
+    "date": "2026-07-29",
+    "images":[
+      "https://images.pexels.com/photos/10566510/pexels-photo-10566510.jpeg"
+    ]
+  },
+  {
+    "id": "R061",
+    "productId": 21,
+    "idUser": 1,
+    "rating": 4.7,
+    "comment": "Pengiriman lancar dan paking aman.",
+    "pembelian": "Paket A",
+    "date": "2026-07-29",
+    "images":[
+      "https://images.pexels.com/photos/6925484/pexels-photo-6925484.jpeg",
+      "https://images.pexels.com/photos/10416604/pexels-photo-10416604.jpeg"
+    ]
+  },
+  {
+    "id": "R061",
+    "productId": 21,
+    "idUser": 2,
+    "rating": 4.7,
+    "comment": "Pengiriman lancar dan paking aman.",
+    "pembelian": "Paket A",
+    "date": "2026-07-29",
+    "images":[
+      "https://images.pexels.com/photos/7796454/pexels-photo-7796454.jpeg",
+      "https://images.pexels.com/photos/28994649/pexels-photo-28994649.jpeg"
+    ]
+  },
+  {
+    "id": "R061",
+    "productId": 21,
+    "idUser": 4,
+    "rating": 4.7,
+    "comment": "Pengiriman lancar dan paking aman.",
+    "pembelian": "Paket A",
+    "date": "2026-07-29",
+    "images":[
+      "https://images.pexels.com/photos/5468645/pexels-photo-5468645.jpeg"
+    ]
+  }
+]

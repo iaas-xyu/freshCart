@@ -1,0 +1,20 @@
+[
+  {
+    "id":1,
+    "title":"Your One-Stop Shop for Quality Groceries",
+    "desc":"Fresh and healthy vegetables for your daily needsFresh and healthy vegetables for your daily needs.",
+    "image":"/bag.png"
+  },
+  {
+    "id":2,
+   "title":"Your One-Stop Shop for Quality Groceries",
+    "desc":"Fresh and healthy vegetables for your daily needsFresh and healthy vegetables for your daily needs.",
+    "image":"/bag.png"
+  },
+  {
+    "id":3,
+    "title":"Your One-Stop Shop for Quality Groceries",
+    "desc":"Fresh and healthy vegetables for your daily needsFresh and healthy vegetables for your daily needs.",
+    "image":"/bag.png"
+  }
+]

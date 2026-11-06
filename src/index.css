@@ -1,0 +1,78 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+
+/* Buka file src/index.css lalu ganti/tambahkan kode ini di paling bawah */
+
+.rating-container {
+  width: 100% !important;
+}
+
+/* Memaksa pembungkus komponen Flowbite mengambil 100% lebar */
+.rating-container > div,
+.rating-container form,
+.rating-container [class*="Rating"] {
+  width: 100% !important;
+  max-width: none !important;
+}
+/* Memastikan tulisan "5 star" dkk tidak turun ke baris bawah */
+.rating-container > div > span:first-child,
+.rating-container span.text-sm.font-medium {
+  white-space: nowrap !important;
+  min-width: max-content !important;
+}
+
+/* Memaksa elemen bar di tengah (pembungkus progress bar) melebar */
+.rating-container div > div:nth-child(2) {
+  width: 100% !important;
+  flex: 1 1 auto !important;
+}
+
+/* Mengunci lebar teks persentase di paling kanan */
+.rating-container > div > span:last-child,
+.rating-container span.text-sm.font-medium:last-child {
+  width: 45px !important;            /* Kunci lebar kolom persentase */
+  min-width: 45px !important;
+  text-align: right !important;      /* Bikin angka rata kanan agar rapi */
+  display: inline-block !important;
+  white-space: nowrap !important;
+}
+
+
+/* Mengecilkan tinggi background bar (area abu-abu) */
+.rating-container div[role="progressbar"],
+.rating-container div > div > div {
+  height: 10px !important; /* Ubah ke 8px atau 10px sesuai selera */
+  border-radius: 9999px !important; /* Supaya ujungnya tetap membulat rapi */
+}
+
+/* Mengecilkan tinggi isian bar (area kuning) */
+.rating-container div[role="progressbar"] > div,
+.rating-container div > div > div > div {
+  height: 10px !important;
+}
+
+
+/* Mengunci tinggi background abu-abu dan baris isian kuning */
+.rating-container div {
+  height: 10px !important;
+}
+
+/* Memastikan baris pembungkus bar tetap meregang penuh */
+.rating-container div[role="progressbar"] {
+  width: 100% !important;
+}
+
+/* Memastikan ujung baris abu-abu dan kuning tetap membulat rapi */
+.rating-container div,
+.rating-container div > div {
+  border-radius: 9999px !important;
+}
+
+/* ring di input warna hijau */
+.coupon-input input:focus {
+  border-color: #16a34a !important;
+  box-shadow: 0 0 0 2px #16a34a !important;
+  outline: none !important;
+}
