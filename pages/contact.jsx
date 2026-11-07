@@ -51,7 +51,7 @@ function Contact(){
 
                 {/* image */}
                 <div className="">
-                    <img src="/footer/user2.png" alt="" className="h-full object-cover"/>
+                    <img src={`${import.meta.env.BASE_URL}footer/user2.png`} alt="" className="h-full object-cover"/>
                 </div>
             </div>
 

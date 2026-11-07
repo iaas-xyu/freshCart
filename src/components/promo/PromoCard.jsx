@@ -25,8 +25,8 @@ function PromoCard({discount, title, desc, buttonText, image, bgColor}){
 function PromoSesionCard({id, title, desc, buttonText, imageCenter, imageLeft, imageRight}){
     const words = title.split(" ");
     return(
-        <div className="grid grid-cols-[20%_60%_20%] gap-2 h-[70vh] ">
-            <div className="bg-cover rounded-2xl" style={{backgroundImage: `url(${imageLeft})`}}></div>
+        <div className="grid lg:grid-cols-[1fr_3fr_1fr] gap-2 h-[70vh] ">
+            <div className="bg-cover rounded-2xl hidden lg:block" style={{backgroundImage: `url(${imageLeft})`}}></div>
             <div className="grid place-items-center bg-cover text-center rounded-2xl" style={{backgroundImage: `url(${imageCenter})`}}>
                 <div className="grid gap-5">
                 <span className="text-3xl font-semibold mt-5">{words[0]}{" "} 
@@ -37,7 +37,7 @@ function PromoSesionCard({id, title, desc, buttonText, imageCenter, imageLeft, i
                 <button className="mt-4 rounded-full bg-green-600 px-4 py-2 text-white text-xs inline-flex items-center gap-2 justify-self-center">{buttonText} <GoArrowRight /></button>
                 </div>
             </div>
-            <div className="bg-cover rounded-2xl" style={{backgroundImage: `url(${imageRight})`}}></div>
+            <div className="bg-cover rounded-2xl hidden lg:block" style={{backgroundImage: `url(${imageRight})`}}></div>
         </div>
     )
 }

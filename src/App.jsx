@@ -75,9 +75,9 @@ function App() {
 
 
   return (
-    <div>
+    <div className="">
       <Navbar />
-      <div className="container pt-3 mx-auto">
+      <div className="mx-auto w-[90%] max-w-7xl mt-18">
         <NavigationBar cart={cart} />
         <Routes>
           <Route path="/" element={<Home onAddToCart={handleAddToCart} />} />

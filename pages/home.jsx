@@ -39,7 +39,8 @@ function Home({ onAddToCart }) {
               key={item.id}
               title={item.title}
               desc={item.desc}
-              image={item.image}
+              //agar lokal dan github tidak rusak file imagenya
+              image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
             />
           ))}
         </Carousel>
@@ -54,11 +55,11 @@ function Home({ onAddToCart }) {
             <span className="text-green-500 pl-0.5">Categories</span>
           </div>
         </div>
-        <div className="w-full">
+        <div className="w-full min-w-0">
           <Swiper
             id="category-swiper"
             modules={[Autoplay]}
-            slidesPerView={4} // semua ukuran layar akan menampilkan 3 slide
+            slidesPerView={4} 
             spaceBetween={16}
             loop={true}
             autoplay={{
@@ -66,18 +67,22 @@ function Home({ onAddToCart }) {
               disableOnInteraction: false,
             }}
             breakpoints={{
-              640: {
-                slidesPerView: 5,
-              },
-              1024: {
+                640: {
                 slidesPerView: 6,
-              },
+                },
+                1024: {
+                slidesPerView: 7,
+                },
+                1280: {
+                slidesPerView: 8,
+                },
             }}
           >
             {categoryData.map((item) => (
               <SwiperSlide key={item.id}>
                 <CategoryCard
-                  image={item.image}
+                  //agar lokal dan github tidak rusak file imagenya
+                  image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
                   name={item.name}
                   qty={item.qty}
                 />
@@ -97,7 +102,8 @@ function Home({ onAddToCart }) {
             title={item.title}
             desc={item.desc}
             buttonText={item.buttonText}
-            image={item.image}
+            //agar lokal dan github tidak rusak file imagenya
+            image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
             bgColor={item.bgColor}
           />
         ))}
@@ -153,9 +159,10 @@ function Home({ onAddToCart }) {
             title={item.title}
             desc={item.desc}
             buttonText={item.buttonText}
-            imageCenter={item.imageCenter}
-            imageLeft={item.imageLeft}
-            imageRight={item.imageRight}
+            //agar lokal dan github tidak rusak file imagenya
+            imageCenter={`${import.meta.env.BASE_URL}${item.imageCenter.replace("./", "")}`}
+            imageLeft={`${import.meta.env.BASE_URL}${item.imageLeft.replace("./", "")}`}
+            imageRight={`${import.meta.env.BASE_URL}${item.imageRight.replace("./", "")}`}
           />
         ))}
       </div>
@@ -184,7 +191,8 @@ function Home({ onAddToCart }) {
                 key={item.id}
                 id={item.id}
                 title={item.title}
-                image={item.image}
+                //agar lokal dan github tidak rusak file imagenya
+                image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
                 category={item.category}
                 price={item.price}
                 oldPrice={item.oldPrice}

@@ -1,13 +1,24 @@
-function CategoryCard({name, image, qty}){
-    return(
-        <div className="mx-auto text-center">
-            <div className="bg-green-50 rounded-full p-5 px-auto text-center md:p-6">
-                <img src={image} alt="" className="h-full w-full object-contain"/>
-            </div>
-            <p className="font-semibold text-sm mt-2">{name}</p>
-            <p className="text-xs">{qty} Products</p>
-        </div>
-    )
+function CategoryCard({ name, image, qty }) {
+  return (
+    <div className="w-full text-center">
+      {/* Image Container */}
+      <div className="mx-auto aspect-square w-full max-w-24 sm:max-w-28 lg:max-w-32 overflow-hidden rounded-full bg-green-50 p-4 flex items-center justify-center">
+        <img
+          src={image}
+          alt={name}
+          className="h-full w-full object-contain"
+        />
+      </div>
+
+      {/* Category Information */}
+      <p className="font-semibold text-sm mt-2 truncate">
+        {name}
+      </p>
+      <p className="text-xs text-gray-500">
+        {qty} Products
+      </p>
+    </div>
+  );
 }
 
-export {CategoryCard}
+export { CategoryCard };

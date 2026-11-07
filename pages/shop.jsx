@@ -190,7 +190,7 @@ function Shop({onAddToCart}){
         <div className="">
             <div className="grid gap-5">
                 {/* Filter */}
-                <div className="overflow-hidden min-w-0 flex gap-2">
+                <div className="overflow-hidden flex gap-2">
                     <Swiper
                         spaceBetween={12}
                         slidesPerView="auto"
@@ -364,7 +364,7 @@ function Shop({onAddToCart}){
                 </div>
 
                 {/* card Product */}
-                <div className="grid grid-cols-2 gap-4 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 justify-items-center">
                     {currentProducts.map((item)=>(
                         <ProductCard onAddToCart={onAddToCart}
                             key={item.id}

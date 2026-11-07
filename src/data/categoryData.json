@@ -40,5 +40,23 @@
     "name": "Vegetable",
     "image": "./categories/vegetable.png",
     "qty": 56
+  },
+  {
+    "id": 8,
+    "name": "Bakery",
+    "image": "./categories/bakery.png",
+    "qty": 32
+  },
+  {
+    "id": 9,
+    "name": "Fruits",
+    "image": "./categories/fruits.png",
+    "qty": 70
+  },
+  {
+    "id": 10,
+    "name": "Drinks",
+    "image": "./categories/drinks.png",
+    "qty": 80
   }
 ]

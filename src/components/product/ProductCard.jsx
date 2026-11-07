@@ -156,7 +156,6 @@ function ProductCard({
             </h3>
 
             {/* Option Modal */}
-
             <div className="grid gap-2">
               <span className="absolute left-5 top-65 text-green-800 bg-green-300 py-0.5 px-2 rounded-2xl text-xs">{category}</span>
               <img src={image} alt="" className="max-h-48 mx-auto object-contain"/>

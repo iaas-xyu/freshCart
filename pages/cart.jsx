@@ -36,7 +36,7 @@ function Cart({
   const [modal, setModal] = useState(false);
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,7fr)_minmax(280px,3fr)] gap-4">
+    <div>
       {cart.length === 0 ? (
         <div className="flex flex-col items-center text-center py-10">
           <p className="text-gray-500 mb-1">Your cart is empty</p>
@@ -49,7 +49,7 @@ function Cart({
           </Link>
         </div>
       ) : (
-        <div className="grid gap-3">
+        <div className="grid grid-cols-1 lg:grid-cols-[7fr_3fr] gap-6">
           <div className="grid gap-2">
             {/* Modal Clear All */}
             {cart.length > 0 && (
