@@ -11,6 +11,7 @@ import { ProductCard } from "../src/components/product/ProductCard";
 import DOTDCard from "../src/components/promo/DealOfTheDay";
 import TestimonialCard from "../src/components/testimonials/Testimonial.jsx";
 import FaqAccordion from "../src/components/faq/FAQ";
+import { ButtonPill } from "../src/components/ui/Button.jsx";
 
 import carouselData from "../src/data/carouselData.json";
 import categoryData from "../src/data/categoryData.json";
@@ -26,31 +27,32 @@ import { GoArrowRight } from "react-icons/go";
 function Home({ onAddToCart }) {
   const products = [];
   return (
-    <>
+    <div className="w-full max-w-full overflow-x-hidden ">
       {/* HERO Carousel */}
-      <div className="overflow-hidden w-full">
-        <Carousel
-          leftControl={<FiChevronLeft className="text-3xl text-white" />}
-          rightControl={<FiChevronRight className="text-3xl text-white" />}
-        />
-        <Carousel>
+      <div className="w-full overflow-hidden rounded-2xl">
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{ delay: 4000, disableOnInteraction: false }}
+        >
           {carouselData.map((item) => (
-            <HeroCard
-              key={item.id}
-              title={item.title}
-              desc={item.desc}
-              //agar lokal dan github tidak rusak file imagenya
-              image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
-            />
+            <SwiperSlide key={item.id}>
+              <HeroCard
+                title={item.title}
+                desc={item.desc}
+                image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
+              />
+            </SwiperSlide>
           ))}
-        </Carousel>
+        </Swiper>
       </div>
 
       {/* Category Slider */}
       <div className="text-center mt-6 ">
         <div className="mb-4">
           <p className="text-sm">categories</p>
-          <div className="text-xl font-semibold">
+          <div className="text-sm md:text-lg lg:text-xl font-semibold">
             <span>Fratured</span>
             <span className="text-green-500 pl-0.5">Categories</span>
           </div>
@@ -60,7 +62,7 @@ function Home({ onAddToCart }) {
             id="category-swiper"
             modules={[Autoplay]}
             slidesPerView={4} 
-            spaceBetween={16}
+            spaceBetween={12}
             loop={true}
             autoplay={{
               delay: 3000,
@@ -68,7 +70,7 @@ function Home({ onAddToCart }) {
             }}
             breakpoints={{
                 640: {
-                slidesPerView: 6,
+                slidesPerView: 5,
                 },
                 1024: {
                 slidesPerView: 7,
@@ -112,21 +114,19 @@ function Home({ onAddToCart }) {
       {/* Featured Product */}
       <div className="mt-6 bg-gray-100 p-5 py-10 rounded-2xl">
         <div className="flex justify-between items-center mb-4">
-          <div className="">
-            <p>Products</p>
-            <span className="text-lg font-bold">
+          <div>
+            <p className="text-[11px] md:text-xs">Products</p>
+            <span className="text-base md:text-lg font-semibold">
               Featured <span className="text-green-700">Products</span>
             </span>
           </div>
-          <button className="rounded-full bg-green-600 px-4 py-2 text-white text-xs inline-flex items-center gap-2">
-            View All Products <GoArrowRight />
-          </button>
+          <ButtonPill onClick="">View All <GoArrowRight/></ButtonPill>
         </div>
         <div className="">
           <Swiper
             id="featured-swiper"
             modules={[Autoplay]}
-            slidesPerView={3} // semua ukuran layar akan menampilkan 3 slide
+            slidesPerView={2}
             spaceBetween={16}
             loop={true}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -169,28 +169,28 @@ function Home({ onAddToCart }) {
 
       {/* Deals Of The Day */}
       <div className="mt-9">
-        <div className="flex justify-between items-center mb-2">
+        <div className="grid grid-cols-[4fr_6fr] md:grid-cols-[3fr_7fr] gap-1 mb-1">
           <div className="">
-            <p className="text-base font-semibold text-gray-600">Today Deals</p>
-            <p className="text-green-600 text-3xl font-bold">
+            <p className="text-[11px] md:text-base font-semibold text-gray-600">Today Deals</p>
+            <p className="text-green-600 text-[13px] lg:text-3xl font-semibold">
               Deals <span className="text-gray-700">of the Day</span>
             </p>
           </div>
-          <div className="w-[40vw] text-xs text-gray-600">
+          <div className="text-[11px] md:text-xs text-gray-600">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               architecto sunt exercitationem odio um laudantium?
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 grid-cols-2 lg:grid-cols-3">
           {productData
             .filter((item) => item.deals === true)
             .map((item) => (
               <DOTDCard
                 key={item.id}
                 id={item.id}
-                title={item.title}
+                name={item.name}
                 //agar lokal dan github tidak rusak file imagenya
                 image={`${import.meta.env.BASE_URL}${item.image.replace("./", "")}`}
                 category={item.category}
@@ -215,7 +215,7 @@ function Home({ onAddToCart }) {
             </span>
           </div>
           <button className="rounded-full bg-green-600 px-4 py-2 text-white text-xs inline-flex items-center gap-2">
-            View All Products <GoArrowRight />
+            View All <GoArrowRight />
           </button>
         </div>
         <div className="">
@@ -256,19 +256,15 @@ function Home({ onAddToCart }) {
       {/* Testimonials */}
       <div className="mt-6 mx-3">
         <div className="text-center">
-          <p className="font-semibold text-gray-600 text-sm">Testiomials</p>
-          <p className="text-xl font-semibold text-gray-700">
+          <p className="text-gray-600 text-[11px] md:text-sm">Testiomials</p>
+          <p className="text-base md:text-xl font-semibold text-gray-700">
             Testimonials From
           </p>
-          <p className="text-xl font-semibold text-green-700">
+          <p className="text-base md:text-xl font-semibold text-green-700">
             Our Loyal Customers
           </p>
         </div>
         <div className="">
-          <Carousel
-            leftControl={<FiChevronLeft className="text-3xl" />}
-            rightControl={<FiChevronRight className="text-3xl" />}
-          />
           <Carousel>
             {testimonialData.map((item) => (
               <TestimonialCard
@@ -287,8 +283,8 @@ function Home({ onAddToCart }) {
       {/* FAQ */}
       <div className="mt-6 text-center">
         <div className="mb-4">
-          <p className="text-sm">Need Help?</p>
-          <div className="text-xl font-semibold">
+          <p className="text-[13px]">Need Help?</p>
+          <div className="text-base md:text-xl font-semibold">
             <span>Frequently</span>
             <span className="text-green-500 pl-0.5">Asked Questions</span>
           </div>
@@ -304,7 +300,7 @@ function Home({ onAddToCart }) {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 export default Home;

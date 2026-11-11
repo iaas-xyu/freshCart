@@ -32,37 +32,37 @@ function CountdownTimer(){
     },[])
 
     return (
-        <div className="flex justify-center gap-5 text-center">
+        <div className="flex justify-center gap-2 lg:gap-5 text-center">
             <div>
-                <p className="text-3xl font-semibold">
+                <p className="text-base lg:text-3xl font-semibold">
                     {String(timeLeft.days).padStart(2,"0")}
                 </p>
-                <span className="text-sm text-gray-500">Days</span>
+                <span className="text-[10px] lg:text-sm text-gray-500">Days</span>
             </div>
-            <span className="text-3xl">:</span>
+            <span className="text-base lg:text-3xl">:</span>
             <div>
-                <p className="text-3xl font-semibold">
+                <p className="text-base lg:text-3xl font-semibold">
                     {String(timeLeft.hours).padStart(2, "0")}
                 </p>
-                <span className="text-sm text-gray-500">
+                <span className="text-[10px] lg:text-sm text-gray-500">
                     Hours
                 </span>
             </div>
-            <span className="text-3xl">:</span>
+            <span className="text-base lg:text-3xl">:</span>
             <div>
-                <p className="text-3xl font-semibold">
+                <p className="text-base lg:text-3xl font-semibold">
                     {String(timeLeft.minutes).padStart(2, "0")}
                 </p>
-                <span className="text-sm text-gray-500">
+                <span className="text-[10px] lg:text-sm text-gray-500">
                     Minutes
                 </span>
             </div>
-            <span className="text-3xl">:</span>
+            <span className="text-base lg:text-3xl">:</span>
             <div>
-                <p className="text-3xl font-semibold">
+                <p className="text-base lg:text-3xl font-semibold">
                     {String(timeLeft.seconds).padStart(2, "0")}
                 </p>
-                <span className="text-sm text-gray-500">
+                <span className="text-[10px] lg:text-sm text-gray-500">
                     Seconds
                 </span>
             </div>

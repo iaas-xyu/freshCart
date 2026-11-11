@@ -64,24 +64,26 @@ function ProductCard({
       {/* Discount & Favorite */}
       <div className="flex items-center justify-between">
         <span className="rounded-r-full bg-green-700 px-2 py-1 text-[10px] text-white">
-          {discount}% off
+          {discount}% 
+          <p className="hidden md:inline"> off</p>
         </span>
         <div className="flex gap-2">
           <button onClick={handleFavorite} className="">
             {isFavorite ? (
-              <FaHeart className="text-red-700" size={23} />
+              <FaHeart className="text-red-700 text-[15px] md:text-md"/>
             ) : (
-              <FaHeart className="text-red-300" size={18} />
+              <FaHeart className="text-red-300 text-[13px] md:text-base"/>
             )}
           </button>
           <span className="rounded-full bg-amber-600 px-2 py-1 text-[9px] text-white">
-            {statusStock}
+            <span className="md:hidden">{statusStock.split(" ")[0]}</span>
+            <span className="hidden md:inline">{statusStock}</span>
           </span>
         </div>
       </div>
       {/* Image */}
       <Link to={`/DetailProduct/${id}`}>
-        <div className="flex h-40 items-center justify-center">
+        <div className="flex h-25 md:h-40 items-center justify-center">
           <img
             src={image}
             alt={name}
@@ -91,27 +93,27 @@ function ProductCard({
       </Link>
       {/* Category & Rating */}
       <div className="flex items-center justify-between">
-        <p className="text-[10px] text-gray-400">{category}</p>
-        <div className="flex items-center gap-1 text-xs">
+        <p className="text-[10px] text-gray-400 truncate inline-block">{Array.isArray(category) ? category.join(" ") : category}</p>
+        <div className="flex items-center gap-1 text-[11px] md:text-xs">
           <FaStar className="text-yellow-400" size={12} />
           <span>{rating}</span>
         </div>
       </div>
       {/* Product Info */}
       <Link to={`/DetailProduct/${id}`}>
-        <h3 className="mt-1 text-sm font-semibold">{name}</h3>
+        <h3 className="mt-1 text-[11px] md:text-sm font-semibold">{name}</h3>
       </Link>
       {/* Price & Add */}
-      <div className="mt-3 flex flex-col md:flex-row justify-between gap-1">
-        <div className="flex flex-row items-center gap-1">
-          <span className="text-sm font-semibold">
+      <div className="mt-1 flex flex-col justify-between gap-1 md:gap-2">
+        <div className="flex flex-col md:flex-row md:gap-2 text-[11px] md:text-sm">
+          <span className="font-semibold">
             {new Intl.NumberFormat("id-ID", {
               style: "currency",
               currency: "IDR",
               maximumFractionDigits: 0,
             }).format(price)}
           </span>
-          <span className="text-[11px] text-gray-400 line-through">
+          <span className="text-gray-400 line-through">
             {new Intl.NumberFormat("id-ID", {
               style: "currency",
               currency: "IDR",
@@ -124,12 +126,14 @@ function ProductCard({
             setSelectedId(id);
             setIsModalOpen(true);
           }}
-          className="flex items-center justify-center gap-1 rounded-md border border-green-500 px-2 py-1 text-xs text-green-600 w-full md:w-fit hover:bg-green-500 hover:text-white"
+          className="flex items-center justify-center gap-1 rounded-md border border-green-500 px-4 py-1 text-center text-xs text-green-600 h-fit hover:bg-green-500 hover:text-white"
         >
           <HiOutlineShoppingBag />
-          Add
+          <span>Add</span>
         </button>
       </div>
+
+      {/* Modal */}
       <Modal
         show={isModalOpen}
         size="md"

@@ -3,7 +3,7 @@ import { Accordion, AccordionContent, AccordionPanel, AccordionTitle } from "flo
 export function FaqAccodion({question, answer}) {
   return (
     <>
-        <Accordion collapseAll>
+        <Accordion collapseAll className="text-[13px] md:text-base">
         <AccordionPanel>
             <AccordionTitle>{question}</AccordionTitle>
             <AccordionContent className="bg-green-500 text-white">

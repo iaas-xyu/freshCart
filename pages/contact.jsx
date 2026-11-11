@@ -9,7 +9,7 @@ function Contact(){
                 <p className="text-xl font-semibold">Contact Us</p>
             </div>
 
-            <div className="grid grid-cols-[2fr_1fr] gap-5">
+            <div className="grid md:grid-cols-[2fr_1fr] gap-5">
                 {/* form */}
                 <div className="w-full">
                     <form className="flex min-w-full flex-col gap-4 ">
@@ -50,31 +50,32 @@ function Contact(){
                 </div>
 
                 {/* image */}
-                <div className="">
+                <div className="hidden md:block">
                     <img src={`${import.meta.env.BASE_URL}footer/user2.png`} alt="" className="h-full object-cover"/>
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_1fr_1fr] gap-5 mt-10 ">
+            {/* info */}
+            <div className="grid grid-cols-[1fr_1fr_1fr] gap-5 mt-10 ">
                 <div className=" flex flex-col justify-center items-center text-center shadow p-8 rounded-lg">
-                    <div className="bg-amber-400 p-4 rounded-lg"><FaLocationDot /></div>
-                    <div className="mt-3">
-                        <p className="font-semibold">Address</p>
-                        <p className="text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
+                    <div className="text-[13px] md:text-base bg-amber-400 p-2 md:p-4 rounded-lg"><FaLocationDot /></div>
+                    <div className="mt-1 md:mt-3">
+                        <p className="text-[13px] md:text-base font-semibold">Branch Location</p>
+                        <p className="text-[9px] md:text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
                     </div>
                 </div>
                 <div className=" flex flex-col justify-center items-center text-center shadow p-8 rounded-lg">
-                    <div className="bg-amber-400 p-4 rounded-lg"><FaPhone /></div>
-                    <div className="mt-3">
-                        <p className="font-semibold">Address</p>
-                        <p className="text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
+                    <div className="text-[13px] md:text-base bg-amber-400 p-2 md:p-4 rounded-lg"><FaPhone /></div>
+                    <div className="mt-1 md:mt-3">
+                        <p className="text-[13px] md:text-base font-semibold">Branch Contact</p>
+                        <p className="text-[9px] md:text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
                     </div>
                 </div>
                 <div className=" flex flex-col justify-center items-center text-center shadow p-8 rounded-lg">
-                    <div className="bg-amber-400 p-4 rounded-lg"><IoMdMail /></div>
-                    <div className="mt-3">
-                        <p className="font-semibold">Address</p>
-                        <p className="text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
+                    <div className="text-[13px] md:text-base bg-amber-400 p-2 md:p-4 rounded-lg"><IoMdMail /></div>
+                    <div className="mt-1 md:mt-3">
+                        <p className="text-[13px] md:text-base font-semibold">Email & Mail Info</p>
+                        <p className="text-[9px] md:text-[11px] text-gray-600">8502 Preston Rd.Inglewood, Maine 98380</p>
                     </div>
                 </div>
             </div>

@@ -11,17 +11,15 @@ function NavigationBar({cart = []}) {
   return (
     <div className="fixed top-2 left-0 right-0 z-50 mx-auto w-[90%] max-w-7xl">
       <Navbar fluid rounded className="w-full rounded-xl bg-green-700 text-white shadow-lg">
-        <NavbarBrand href="/">
+        <NavbarBrand as={Link} to="/">
           <img src={`${import.meta.env.BASE_URL}logo.png`} className="h-12 pr-2 py-2 object-contain" alt="Flowbite React Logo" />
           <span className="self-center whitespace-nowrap text-xl font-semibold ">Fresh Cart</span>
         </NavbarBrand>
-        <div className="flex items-center gap-2 md:order-2 shrink-0 mr-6">
+        <div className="flex items-center gap-2 md:order-2 shrink-0">
           {/* Cart */}
-          <Link to="/Cart">
-            <div className="text-2xl">
-              <BsCart2 />
-              <div className="absolute top-4 right-19 md:right-7 text-xs bg-red-600 py-0.5 px-2 rounded-full">{totalCart}</div>
-            </div>
+          <Link to="/Cart" className="relative flex items-center p-1.5 text-white">
+              <BsCart2 className="text-2xl"/>
+              <div className="absolute -top-1 -right-1 text-[10px] font-bold bg-red-600 text-white py-1 px-1.5 rounded-full leading-none">{totalCart}</div>
           </Link>
           <NavbarToggle className="text-white hover:text-gray-100 hover:bg-transparent focus:border-0 focus:ring-0 focus:outline-none"/>
         </div>

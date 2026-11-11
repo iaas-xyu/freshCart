@@ -26,32 +26,32 @@ function About() {
             <div className="absolute top-5 -left-3 bg-yellow-400 px-4 py-2 rounded-r-lg rounded-tl-lg shadow-md">
               <div className="absolute -bottom-2 left-0 w-0 h-0 border-t-8 border-t-yellow-500 border-l-12 border-l-transparent"></div>
               <div className="flex items-center gap-2">
-                <span className="text-4xl font-bold leading-none">16</span>
+                <span className="text-lg lg:text-4xl font-bold leading-none">16</span>
                 <div className="leading-tight">
-                  <p className="font-bold text-lg">Years</p>
-                  <p className="text-xs">of Services</p>
+                  <p className="font-bold text-base lg:text-lg">Years</p>
+                  <p className="text-[10px] md:text-xs">of Services</p>
                 </div>
               </div>
             </div>
           </div>
           {/* Content */}
           <div className="flex flex-col justify-center">
-            <p className="text-sm font-medium text-gray-700 mb-2">About Us</p>
-            <h2 className="text-3xl font-bold leading-tight text-gray-900">
+            <p className="text-sm font-medium text-gray-700 lg:mb-2">About Us</p>
+            <h2 className="text-base lg:text-3xl font-bold leading-tight text-gray-900">
               Your Trusted Partner in{" "}
               <span className="text-green-700">Fresh Grocery Delivery</span>
             </h2>
-            <p className="mt-4 text-sm leading-6 text-gray-500">
+            <p className="mt-1 lg:mt-4 text-xs md:text-sm leading-6 text-gray-500">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore.
             </p>
             {/* Features */}
-            <div className="mt-4 space-y-2">
+            <div className="mt-1 lg:mt-4 space-y-2  text-xs md:text-sm">
               <div className="flex items-center gap-2">
                 <span className="flex items-center justify-center w-4 h-4 rounded-full bg-yellow-400">
                   <FaCheck className="text-[9px] text-gray-800" />
                 </span>
-                <span className="text-sm text-gray-600">
+                <span className="text-gray-600">
                   Eco-Friendly and Sustainable Practices
                 </span>
               </div>
@@ -60,7 +60,7 @@ function About() {
                 <span className="flex items-center justify-center w-4 h-4 rounded-full bg-yellow-400">
                   <FaCheck className="text-[9px] text-gray-800" />
                 </span>
-                <span className="text-sm text-gray-600">
+                <span className="text-gray-600">
                   Fresh and High-Quality Groceries
                 </span>
               </div>
@@ -69,15 +69,15 @@ function About() {
                 <span className="flex items-center justify-center w-4 h-4 rounded-full bg-yellow-400">
                   <FaCheck className="text-[9px] text-gray-800" />
                 </span>
-                <span className="text-sm text-gray-600">
+                <span className="text-gray-600">
                   Convenient and Reliable Delivery
                 </span>
               </div>
             </div>
 
             {/* Founder */}
-            <div className="mt-5">
-              <p className="text-2xl italic font-semibold text-gray-800">
+            <div className="mt-1 lg:mt-5">
+              <p className="text-base lg:text-2xl italic font-semibold text-gray-800">
                 Jenny Alexander
               </p>
               <p className="mt-1 text-xs text-gray-500">
@@ -93,7 +93,7 @@ function About() {
       <div className="relative w-full mb-6">
         <div className="absolute right-6 bottom-6 w-3xl h-96 rounded-l-xl bg-gray-300/30"></div>
         <Card className="max-w-2xl ml-auto p-0 border-none shadow-none">
-          {/* IMAGE + BADGE */}
+          {/* Card Content 1 */}
           <div className="relative">
             {/* agar lokal dan github tidak rusak file imagenya */}
             <img
@@ -133,15 +133,16 @@ function About() {
               </div>
             </div>
           </div>
-          {/* CARD CONTENT */}
+
+          {/* CARD CONTENT 2 */}
           <div className="px-6 py-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* VISION */}
               <div>
-                <div className="w-10 h-10 bg-green-900 rounded-md flex items-center justify-center text-white mb-3">
+                <div className="w-8 md:w-10 h-8 md:h-10 bg-green-900 rounded-md flex items-center justify-center text-white mb-3">
                   <FaRocket />
                 </div>
-                <h5 className="text-lg font-bold text-gray-900 mb-1">
+                <h5 className="text-base md:text-lg font-semibold text-gray-900 mb-1">
                   Our Vision
                 </h5>
                 <p className="text-sm text-gray-600 leading-relaxed">
@@ -152,10 +153,10 @@ function About() {
               </div>
               {/* MISSION */}
               <div>
-                <div className="w-10 h-10 bg-green-900 rounded-md flex items-center justify-center text-white mb-3">
+                <div className="w-8 md:w-10 h-8 md:h-10 bg-green-900 rounded-md flex items-center justify-center text-white mb-3">
                   <FaEye />
                 </div>
-                <h5 className="text-lg font-bold text-gray-900 mb-1">
+                <h5 className="text-base md:text-lg font-semibold text-gray-900 mb-1">
                   Our Mission
                 </h5>
                 <p className="text-sm text-gray-600 leading-relaxed">
@@ -169,15 +170,16 @@ function About() {
         </Card>
       </div>
 
-      <div className="w-full flex flex-col justify-center items-center">
+      {/* Our Teams */}
+      <div className="w-full flex flex-col justify-center items-center mb-3">
         <div className="text-center mb-5">
-          <p className="text-sm font-semibold">Our Team</p>
-          <p className="text-xl font-semibold">Meet The Passionate</p>
-          <p className="text-xl font-semibold text-green-600">
+          <p className="text-[12px] lg:text-sm lg:font-semibold">Our Team</p>
+          <p className="text-[12px] lg:text-xl font-semibold">Meet The Passionate</p>
+          <p className="text-[12px] lg:text-xl font-semibold text-green-600">
             Team Behind Our Success
           </p>
         </div>
-        <div className="w-fit grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <div className="w-fit grid grid-cols-4 gap-4">
           {ourTeams.map((item) => (
             <div
               key={item.id}
@@ -185,12 +187,12 @@ function About() {
             >
               <img
                 src={`${import.meta.env.BASE_URL}${item.photo}`}
-                className="w-8 h-8 rounded-full border-2 border-white object-cover"
+                className="w-12 h-12 rounded-full border-2 border-white object-cover"
                 alt=""
               />
-              <div className="mt-2">
-                <p className="text-sm font-semibold">{item.name}</p>
-                <p className="text-[11px] text-gray-600">{item.department}</p>
+              <div className="lg:mt-2">
+                <p className="text-[12px] lg:text-sm font-semibold">{item.name}</p>
+                <p className="text-[9px] lg:text-[11px] text-gray-600">{item.department}</p>
               </div>
             </div>
           ))}

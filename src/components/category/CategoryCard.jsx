@@ -11,10 +11,10 @@ function CategoryCard({ name, image, qty }) {
       </div>
 
       {/* Category Information */}
-      <p className="font-semibold text-sm mt-2 truncate">
+      <p className=" text-xs md:text-base mt-2 truncate">
         {name}
       </p>
-      <p className="text-xs text-gray-500">
+      <p className="text-[8px] md:text-sm text-gray-500">
         {qty} Products
       </p>
     </div>

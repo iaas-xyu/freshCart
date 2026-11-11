@@ -3,7 +3,7 @@ import { FaStar,FaStarHalfAlt, FaRegStar } from "react-icons/fa";
 function TestimonialCard({name, jobTitle, comment, avatar, rating}){
     return(
         <>
-            <figure className="mx-auto text-center">
+            <figure className="mx-auto text-center text-[12px]">
                 <svg
                     className="w-11 h-11 text-heading mb-4 mx-auto"
                     aria-hidden="true"
@@ -22,11 +22,11 @@ function TestimonialCard({name, jobTitle, comment, avatar, rating}){
                 />
                 </svg>
                 <blockquote>
-                    <p className="text-lg italic font-semibold tracking-tight text-gray-700">
+                    <p className="md:text-lg italic font-semibold tracking-tight text-gray-700">
                     "{comment}"
                     </p>
                 </blockquote>
-                <div className="flex gap-1 items-center justify-center mt-5">
+                <div className="flex gap-1 items-center justify-center mt-5 text-[12px]">
                     {[...Array(5)].map((_, index) =>{
                         const starValue = index + 1
 
@@ -62,8 +62,8 @@ function TestimonialCard({name, jobTitle, comment, avatar, rating}){
                     alt="profile picture"
                     />
                     <div className="flex items-center divide-x rtl:divide-x-reverse divide-default">
-                        <cite className="pe-3 font-medium text-heading">{name}</cite>
-                        <cite className="ps-3 text-sm text-body">{jobTitle}</cite>
+                        <cite className="pe-3 ">{name}</cite>
+                        <cite className="ps-3">{jobTitle}</cite>
                     </div>
                 </figcaption>
             </figure>

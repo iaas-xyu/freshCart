@@ -3,7 +3,11 @@
 @source "../.flowbite-react/class-list.json";
 
 
-/* Buka file src/index.css lalu ganti/tambahkan kode ini di paling bawah */
+html, body, #root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .rating-container {
   width: 100% !important;
