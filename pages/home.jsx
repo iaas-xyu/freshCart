@@ -177,13 +177,12 @@ function Home({ onAddToCart }) {
             </p>
           </div>
           <div className="text-[11px] md:text-xs text-gray-600">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              architecto sunt exercitationem odio um laudantium?
+            <p className="mb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
           </div>
         </div>
-        <div className="grid gap-4 grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {productData
             .filter((item) => item.deals === true)
             .map((item) => (
@@ -222,7 +221,7 @@ function Home({ onAddToCart }) {
           <Swiper
             id="featured-swiper"
             modules={[Autoplay]}
-            slidesPerView={3} // semua ukuran layar akan menampilkan 3 slide
+            slidesPerView={2}
             spaceBetween={16}
             loop={true}
             autoplay={{
@@ -268,6 +267,7 @@ function Home({ onAddToCart }) {
           <Carousel>
             {testimonialData.map((item) => (
               <TestimonialCard
+                key={item.id}
                 id={item.id}
                 name={item.name}
                 rating={item.rating}

@@ -3,7 +3,7 @@ import { ButtonPill } from "../ui/Button";
 import { BsHeart, BsFillHeartFill } from "react-icons/bs";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 
-function DOTDCard({ name, category, price, oldPrice, rating, desc, image, discount }) {
+function DOTDCard({ name, category, price, oldPrice, image, discount }) {
     const [isFavorite, setIsFavorite] = useState(false);
 
     // Menangani category baik berbentuk Array maupun String
@@ -25,7 +25,7 @@ function DOTDCard({ name, category, price, oldPrice, rating, desc, image, discou
             </div>
 
             {/* Area Detail Produk (Kanan) */}
-            <div className="flex flex-col justify-between h-full ps-3 md:ps-4 py-1">
+            <div className="flex flex-col justify-between md:ps-4 p-1 gap-1">
                 {/* Header Info: Kategori & Wishlist Button */}
                 <div>
                     <div className="flex items-start justify-between gap-1">

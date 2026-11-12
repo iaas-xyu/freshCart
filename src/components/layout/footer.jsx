@@ -14,7 +14,7 @@ function Footer() {
   return (
     <div className="mt-6">
       {/* Services / Features Bar */}
-      <div className="grid grid-cols-3 justify-items-center gap-3 md:grid-cols-3 md:justify-items-stretch mb-5">
+      <div className="grid grid-cols-1 justify-items-center gap-3 md:grid-cols-3 md:justify-items-stretch mb-5">
         <div className="flex items-center gap-3">
           <img
             src={`${import.meta.env.BASE_URL}footer/box.png`}
@@ -69,11 +69,11 @@ function Footer() {
       ))}
     </div>
 
-      <div className="bg-[url(footer/background.png)] bg-cover bg-center rounded-2xl flex flex-col items-center pt-5 lg:pt-20">
+      <div style={{backgroundImage: `url(${import.meta.env.BASE_URL}footer/background.png)`,}} className="bg-cover bg-center rounded-2xl flex flex-col items-center pt-5 lg:pt-20">
         {/* Newsletter Subscription Section */} 
-        <div className="flex flex-col items-center gap-2 md:gap-4 mb-7">
-          <p className="font-semibold text-gray-700">Our Newsletter</p>
-          <p className="font-semibold text-lg lg:text-4xl text-gray-900 text-center px-17">
+        <div className="flex flex-col items-center gap-2 md:gap-4 mb-7 px-8">
+          <p className="font-semibold text-xs lg:text-lg text-gray-700">Our Newsletter</p>
+          <p className="font-semibold text-base md:text-xl lg:text-3xl text-gray-900 text-center">
             Subscribe to Our Newsletter to Get{" "}
             <span className="text-green-700">Updates on Our Latest Offers</span>
           </p>
@@ -81,7 +81,7 @@ function Footer() {
             get 25% off on your first order just by subscribing to our
             newsletter
           </p>
-          <form action="" className="w-[55%]">
+          <form action="" className="w-[85%] md:w-[55%]">
             <div className="flex gap-2">
               <input
                 type="text"
@@ -110,14 +110,14 @@ function Footer() {
                 />
                 <p className="text-md font-semibold">Fresh Cart</p>
               </div>
-              <p className="text-xs ">
+              <p className="text-[11px] md:text-xs ">
                 Fresh Choices, Better Living. Explore a wide range of quality
                 groceries and everyday essentials, carefully selected to bring
                 freshness, convenience, and happiness to every home.
               </p>
 
               {/* social media */}
-              <div className="flex justify-start gap-3 mt-2 me-7 text-lg">
+              <div className="flex justify-start gap-3 mt-2 me-7 text-xs md:text-lg">
                 <a href="" className="p-2 bg-white/10 rounded-full ">
                   <FaFacebook />
                 </a>
@@ -137,28 +137,28 @@ function Footer() {
             </div>
 
             {/* info detail */}
-            <div className="grid grid-cols-4 gap-2 md:gap-4">
-              <div className="grid grid-rows-5 text-xs">
-                <p className="font-semibold text-[11px] md:text-sm">Company</p>
+            <div className="hidden md:grid grid-cols-4 gap-2 md:gap-4">
+              <div className="grid md:grid-rows-5 text-xs">
+                <p className="font-semibold text-[11px] md:text-sm mb-1 ">Company</p>
                 <p className="text-[9px] md:text-xs">About us</p>
                 <p className="text-[9px] md:text-xs">Blog</p>
                 <p className="text-[9px] md:text-xs">Career</p>
               </div>
               <div className="grid grid-rows-5 text-xs">
-                <p className="font-semibold text-[11px] md:text-sm">Customer Services</p>
+                <p className="font-semibold text-[11px] md:text-sm mb-1">Customer Services</p>
                 <p className="text-[9px] md:text-xs">My Account</p>
                 <p className="text-[9px] md:text-xs">Track Your Order</p>
                 <p className="text-[9px] md:text-xs">Return</p>
                 <p className="text-[9px] md:text-xs">FAQ</p>
               </div>
               <div className="grid grid-rows-5 text-xs">
-                <p className="font-semibold text-[11px] md:text-sm">Our Information</p>
+                <p className="font-semibold text-[11px] md:text-sm mb-1">Our Information</p>
                 <p className="text-[9px] md:text-xs">Our Privacy</p>
                 <p className="text-[9px] md:text-xs">User Terms & Condition</p>
                 <p className="text-[9px] md:text-xs">Return Policy</p>
               </div>
               <div className="grid grid-rows-5 text-xs">
-                <p className="font-semibold text-[11px] md:text-sm">Contact Info</p>
+                <p className="font-semibold text-[11px] md:text-sm mb-1">Contact Info</p>
                 <p className="text-[9px] md:text-xs">+0123-456-778</p>
                 <p className="text-[9px] md:text-xs">Freshcart@gmail.com</p>
               </div>
