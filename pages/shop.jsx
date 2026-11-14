@@ -18,7 +18,9 @@ import filterData from "../src/data/filterData.json"
 export function Component() {
     const [openModal, setOpenModal] = useState(true);
     const [modalSize, setModalSize] = useState("md");
-    }
+}
+
+
 function Shop({onAddToCart}){
     const [selectedCategory, setSelectedCategory] = useState("");
     const minPrice = Math.min(...productData.map((item) => item.price))

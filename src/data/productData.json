@@ -30,8 +30,7 @@
             "normal"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Ready Stock"
+        "lokasi":"Jakarta"
     },
     {
         "id":2,
@@ -51,7 +50,7 @@
         "image":"./product/apel.png",
         "rating":4.9,
         "views":70256,
-        "stock":997,
+        "stock":0,
         "featured":true,
         "gramasi":"500g",        
         "totalSold":35653,
@@ -66,8 +65,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Ready Stock"
+        "lokasi":"Jakarta"
     },
     {
         "id":3,
@@ -89,8 +87,8 @@
         "views":301910,
         "stock":581,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":81446,
+        "gramasi":"500g",
+        "totalSold":81446,
         "discount":"50",
         "deals": false,
         "service": [
@@ -102,8 +100,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Ready Stock"
+        "lokasi":"Jakarta"
     },
     {
         "id":4,
@@ -123,7 +120,7 @@
         "image":"./product/bawangPutih.png",
         "rating":4.9,
         "views":737654,
-        "stock":273,
+        "stock":4,
         "featured":false,
         "gramasi":"500g",
         "totalSold":55830,
@@ -138,8 +135,7 @@
             "sameday"
         ],
         "COD": true,
-        "lokasi":"Jakarta",
-        "statusStock":"Ready Stock"
+        "lokasi":"Jakarta"
     },
     {
         "id":5,
@@ -161,8 +157,8 @@
         "views":901811,
         "stock":70,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":10106,
+        "gramasi":"500g",
+        "totalSold":10106,
         "discount":"20",
         "deals": false,
         "service": [
@@ -174,8 +170,7 @@
             "sameday"
         ],
         "COD": true,
-        "lokasi":"Jakarta",
-        "statusStock":"Ready Stock"
+        "lokasi":"Jakarta"
     },
     {
         "id":6,
@@ -197,8 +192,8 @@
         "views":105874,
         "stock":231,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":18715,
+        "gramasi":"500g",
+        "totalSold":18715,
         "discount":"20",
         "deals": false,
         "service": [
@@ -211,8 +206,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":7,
@@ -248,8 +242,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":8,
@@ -271,8 +264,8 @@
         "views":927492,
         "stock":641,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":33673,
+        "gramasi":"500g",
+        "totalSold":33673,
         "discount":"20",
         "deals": false,
         "service": [
@@ -284,8 +277,7 @@
             "instant"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":9,
@@ -305,10 +297,10 @@
         "image":"./product/lecy.png",
         "rating":3.9,
         "views":812489,
-        "stock":181,
+        "stock":0,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":80458,
+        "gramasi":"500g",        
+        "totalSold":80458,
         "discount":"20",
         "deals": false,
         "service": [
@@ -320,8 +312,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Sold Out"
+        "lokasi":"Jakarta"
     },
     {
         "id":10,
@@ -343,8 +334,8 @@
         "views":841044,
         "stock":690,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":87739,
+        "gramasi":"500g",
+        "totalSold":87739,
         "discount":"20",
         "deals": false,
         "service": [
@@ -356,8 +347,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Bogor",
-        "statusStock":"Sold Out"
+        "lokasi":"Bogor"
     },
     {
         "id":11,
@@ -377,10 +367,10 @@
         "image":"./product/mangga.png",
         "rating":4.9,
         "views":772326,
-        "stock":673,
+        "stock":5,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":7195,
+        "gramasi":"500g",
+        "totalSold":7195,
         "discount":"20",
         "deals": false,
         "service": [
@@ -392,8 +382,7 @@
             "instant"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Sold Out"
+        "lokasi":"Jakarta"
     },
     {
         "id":12,
@@ -415,8 +404,8 @@
         "views":146616,
         "stock":817,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":33715,
+        "gramasi":"500g",
+        "totalSold":33715,
         "discount":"20",
         "deals": false,
         "service": [
@@ -428,8 +417,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Sold Out"
+        "lokasi":"Jakarta"
     },
     {
         "id":13,
@@ -449,7 +437,7 @@
         "image":"./product/pisang.png",
         "rating":4.9,
         "views":831226,
-        "stock":220,
+        "stock":9,
         "featured":false,
         "gramasi":"500g",
         "totalSold":47548,
@@ -464,8 +452,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":14,
@@ -487,8 +474,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": true,
         "service": [
@@ -500,8 +487,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":15,
@@ -523,8 +509,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": false,
         "service": [
@@ -536,8 +522,7 @@
             "instant"
         ],
         "COD": true,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":16,
@@ -559,8 +544,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": false,
         "service": [
@@ -572,8 +557,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
         
     {
@@ -596,8 +580,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",        
+        "totalSold":25297,
         "discount":"20",
         "deals": false,
         "service": [
@@ -610,8 +594,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":18,
@@ -633,8 +616,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",        
+        "totalSold":25297,
         "discount":"35",
         "deals": true,
         "service": [
@@ -647,8 +630,7 @@
             "sameday"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":19,
@@ -670,8 +652,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": true,
         "service": [
@@ -681,8 +663,7 @@
             "normal"
         ],
         "COD": false,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":20,
@@ -704,8 +685,8 @@
         "views":419428,
         "stock":33,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": true,
         "service": [
@@ -717,8 +698,7 @@
             "sameday"
         ],
         "COD": true,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     },
     {
         "id":21,
@@ -734,10 +714,10 @@
         "image":"./product/hairMask.png",
         "rating":4.9,
         "views":419428,
-        "stock":33,
+        "stock":10,
         "featured":true,
-
-"gramasi":"500g",        "totalSold":25297,
+        "gramasi":"500g",
+        "totalSold":25297,
         "discount":"20",
         "deals": true,
         "service": [
@@ -748,7 +728,6 @@
             "sameday"
         ],
         "COD": true,
-        "lokasi":"Jakarta",
-        "statusStock":"Pre Order"
+        "lokasi":"Jakarta"
     }
 ]

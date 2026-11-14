@@ -20,8 +20,6 @@ function App() {
 
   // menambah/mengupdate item di keranjang
   const handleAddToCart = (product, qty) => {
-    console.log("Produk diterima:", product);
-    console.log("Jumlah diterima:", qty);
     setCart((prevCart) => {
       // cek apakah item apakah yang ditambahkan ada di cart
       const existingIndex = prevCart.findIndex(
@@ -46,7 +44,6 @@ function App() {
     });
   };
   useEffect(() => {
-    console.log("Isi cart terbaru:", cart);
   }, [cart]);
 
   // Remove Item
@@ -62,7 +59,7 @@ function App() {
   // Update Qty
   const handleUpdateQty = (id, newQty) => {
     if (newQty <= 0 ){
-      haldleRemoveItem(id)
+      handleRemoveItem(id)
     } else if (newQty > 0 ) {
       setCart((prevCart) =>
         prevCart.map((item) =>
@@ -87,7 +84,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/DetailProduct/:id" element={<DetailProduct onAddToCart={handleAddToCart} />} />
           <Route path="/Cart" element={
-              <Cart cart={cart} onUpdateQuantity={handleUpdateQty} onHandleRemoveItem={handleRemoveItem}  onHandleClear={handleClearCart}/>}
+              <Cart cart={cart} onUpdateQuantity={handleUpdateQty} onHandleRemoveItem={handleRemoveItem} onHandleClear={handleClearCart}/>}
           />
           <Route path="*" element={<Halaman404 />}></Route>
         </Routes>
